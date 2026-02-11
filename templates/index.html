@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+{% block title %}Home | Pulse of Prosperity{% endblock %}
+
+{% block content %}
+
+<!-- Hero Section -->
+<div class="row align-items-center mb-5">
+    <div class="col-md-6">
+        <h1 class="fw-bold text-primary">
+            Measuring the Pulse of Prosperity
+        </h1>
+        <p class="lead mt-3">
+            An interactive analysis of the <strong>Index of Economic Freedom</strong>,
+            examining how policy choices shape growth, opportunity, and global prosperity.
+        </p>
+        <a href="/dashboard1" class="btn btn-primary btn-lg mt-3">
+            Explore Dashboards
+        </a>
+    </div>
+    <div class="col-md-6 text-center">
+        <img src="https://cdn-icons-png.flaticon.com/512/2972/2972300.png"
+             class="img-fluid" alt="Economic Growth">
+    </div>
+</div>
+
+<!-- Key Indicators Section -->
+<div class="row text-center mb-5">
+    <h2 class="mb-4">Key Dimensions of Economic Freedom</h2>
+
+    <div class="col-md-4 mb-3">
+        <div class="card shadow-sm h-100">
+            <div class="card-body">
+                <h5 class="card-title">Rule of Law</h5>
+                <p class="card-text">
+                    Evaluates property rights, judicial effectiveness,
+                    and government integrity.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+        <div class="card shadow-sm h-100">
+            <div class="card-body">
+                <h5 class="card-title">Government Size</h5>
+                <p class="card-text">
+                    Measures tax burden, government spending,
+                    and fiscal health.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+        <div class="card shadow-sm h-100">
+            <div class="card-body">
+                <h5 class="card-title">Market Openness</h5>
+                <p class="card-text">
+                    Assesses trade freedom, investment freedom,
+                    and financial freedom.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Project Overview -->
+<div class="row">
+    <div class="col-lg-10 mx-auto">
+        <div class="alert alert-primary shadow-sm">
+            <h4 class="alert-heading">Project Overview</h4>
+            <p>
+                This project leverages <strong>Tableau visual analytics</strong> and the
+                <strong>Flask web framework</strong> to present a data-driven exploration
+                of economic freedom across countries and regions.
+            </p>
+            <p class="mb-0">
+                Users can interactively compare nations, analyze rankings over time,
+                and gain insights into how institutional quality influences prosperity.
+            </p>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
